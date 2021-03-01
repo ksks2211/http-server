@@ -15,12 +15,34 @@
         </nav>
         <div>
             <form id="form">
-                <input type="text" name="username" id="username">
+                <input type="text" name="username" id="username" autocomplete="off">
                 <button type="submit">Register</button>
             </form>
         </div>
-        <div id="list"></div>
+        
+
+        <hr>
+
+        <table>
+            <caption>Name List</caption>
+            <colgroup>
+                <col>
+                <col span="2" style="background-color:lightyellow;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Name</th><th>UPDATE</th><th>DELETE</th>
+                </tr>
+            </thead>
+            <tbody id="table-list">
+            </tbody>
+        </table>
+
+
     </div>
+
+
+
 
     <script src="https://unpkg.com/axios/dist/axios.min.js" ></script>
     <script src="./restFront.js" ></script>

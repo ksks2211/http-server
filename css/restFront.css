@@ -1,15 +1,62 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 .main {
-    width:980px;
+    width:60%;
+    border : 2px solid gainsboro;
+    padding:10px;
     margin:auto;
 }
 
-a {
-    color : blue;
+#form {
+    width:70%;
+    margin-left:20px
+}
+nav{
+    text-align: center;
+}
+
+nav a {
+    margin: 5px;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
     color:brown;
+}
+
+hr{
+    border: none;
+    border-top:1px solid black;
+}
+.description-page {
+    margin:15px;
+}
+h2{
+    margin-left:5px
+}
+p{
+    text-align: center;
+    margin: 5px;
+}
+
+table{
+    width:80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption{
+    font-style: italic;
+}
+
+button{
+    margin: 3px;
+}
+
+td, th{
+    border: 1px solid gray;
+    text-align: center;
 }
